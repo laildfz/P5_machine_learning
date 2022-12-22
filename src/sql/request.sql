@@ -23,4 +23,4 @@ WHERE p.CreationDate between @start_date and @end_date
   AND p.CommentCount > 5
   AND p.AnswerCount > 0
   AND p.Score > 5
-  AND LEN(Tags) - LEN(REPLACE(Tags, '<','')) > 0 
+  AND LEN(Tags) - LEN(REPLACE(Tags, '<','')) > 2
